@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "035430e4-f321-4ce7-ab8b-3681cb9454be",
+  "name": "splashscreen",
+  "symbol": "bg_pixilart_drawing_43",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "splashscreen.png",
+  "tileColors": "",
+  "autoColor": false
+}

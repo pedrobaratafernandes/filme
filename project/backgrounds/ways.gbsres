@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7599227c-5cd6-4f77-b57f-67bdfc26f281",
+  "name": "ways",
+  "symbol": "bg_ways",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ways.png",
+  "tileColors": "",
+  "autoColor": false
+}

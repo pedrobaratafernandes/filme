@@ -1,0 +1,89 @@
+{
+  "_resourceType": "scene",
+  "id": "d8790a70-8a57-4f38-b777-d0e921f83845",
+  "_index": 6,
+  "name": "PickUpWeapon",
+  "backgroundId": "27ccdbbd-178d-46be-b685-fcba5718ee24",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "007+0f!002+0f!00a+0f7+002+0f9+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!00!0f2+0010+0f2+0028+0f2+0010+0f2+00!0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f12+0015+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 640,
+  "y": 720,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b"
+              ],
+              "override": true,
+              "__scriptTabs": "press"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_LAUNCH_PROJECTILE",
+                  "args": {
+                    "__section": "projectile",
+                    "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+                    "spriteStateId": "",
+                    "actorId": "$self$",
+                    "x": 0,
+                    "y": 0,
+                    "directionType": "actor",
+                    "otherActorId": "$self$",
+                    "direction": "right",
+                    "angle": 0,
+                    "angleVariable": "L0",
+                    "targetActorId": "$self$",
+                    "initialOffset": 0,
+                    "speed": 2,
+                    "animSpeed": 15,
+                    "lifeTime": 1,
+                    "loopAnim": true,
+                    "destroyOnHit": true,
+                    "collisionGroup": "3",
+                    "collisionMask": [
+                      "1"
+                    ]
+                  },
+                  "id": "f839daca-5170-4e18-913b-e66e3287daee"
+                }
+              ]
+            },
+            "id": "9e5df295-161a-4245-a986-c2e89cd4ff6f"
+          }
+        ],
+        "false": []
+      },
+      "id": "e6f8b2cf-4384-45d9-8216-cc0bfbc80f55"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c0ff6707-6e4f-4ecd-96c1-d76ebb0d4f4c"
+}

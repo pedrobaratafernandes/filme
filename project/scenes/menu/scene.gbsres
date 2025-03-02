@@ -1,0 +1,70 @@
+{
+  "_resourceType": "scene",
+  "id": "b3680eaf-49d4-4c17-9174-49806c136e6a",
+  "_index": 0,
+  "name": "Menu",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 488,
+  "y": 104,
+  "script": [
+    {
+      "command": "EVENT_RESET_VARIABLES",
+      "args": {},
+      "id": "8aa92886-51ea-4c72-9068-8dee64bf1cf3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "c178b35f-0276-45cb-ba0d-52b306b10f1a"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Start Game",
+        "x": 4,
+        "y": 6,
+        "location": "background"
+      },
+      "id": "fbbef57e-2673-4621-99ab-3eaaadd674e5"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Quit",
+        "x": 7,
+        "y": 10,
+        "location": "background"
+      },
+      "id": "14ae70d5-5e29-4f35-a306-01dd7403715b"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Press A",
+        "x": 6,
+        "y": 15,
+        "location": "background"
+      },
+      "id": "ecb44caa-221e-4dd7-827d-df27a92afd87"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "e1e61a8a-93d2-4733-9fec-9a1fb9002da9"
+}

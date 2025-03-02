@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "27ccdbbd-178d-46be-b685-fcba5718ee24",
+  "name": "ways2",
+  "symbol": "bg_ways2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ways2.png",
+  "tileColors": "",
+  "autoColor": false
+}

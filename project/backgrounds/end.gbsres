@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3624cf5a-da39-43ac-bae2-128fa00d5838",
+  "name": "end",
+  "symbol": "bg_enemies_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "end.png",
+  "tileColors": "",
+  "autoColor": false
+}

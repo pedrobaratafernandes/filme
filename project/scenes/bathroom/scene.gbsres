@@ -1,0 +1,35 @@
+{
+  "_resourceType": "scene",
+  "id": "5c4b9d08-2e0e-4e74-8977-993f36b31401",
+  "_index": 4,
+  "name": "Bathroom",
+  "backgroundId": "a2ad926f-d8fe-431b-8f54-058c192d4cbc",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0015+0f12+002+0f!00c+0f5+002+0f!00c+0f5+002+0f!00e+0f3+00!0f2+00e+0f3+00f+0f5+00f+0f5+00!0f2+00e+0f3+002+0f!00e+0f3+002+0f!00c+0f5+002+0f!00c+0f5+002+0f!00e+0f3+002+0f!00e+0f3+002+0f!00c+0f5+002+0f!00c+0f5+002+0f12+0015+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 808,
+  "y": 392,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "e53410d4-033a-4f44-b024-afd49735c9b9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c0ff6707-6e4f-4ecd-96c1-d76ebb0d4f4c"
+}

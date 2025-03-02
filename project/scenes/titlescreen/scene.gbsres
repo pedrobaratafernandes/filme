@@ -1,0 +1,56 @@
+{
+  "_resourceType": "scene",
+  "id": "63928467-489a-48d7-84fa-cc1fcd60efa6",
+  "_index": 11,
+  "name": "TitleScreen",
+  "backgroundId": "f2525c57-c67f-42a1-bbb3-57422bacb7b4",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 248,
+  "y": 216,
+  "script": [
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": 3
+      },
+      "id": "891ed84a-ee0a-45ba-aa29-88bfdfbea894"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "275a589a-c1a2-416a-b98c-284c485ccd54"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b3680eaf-49d4-4c17-9174-49806c136e6a",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "a37e800b-1c90-4033-8801-59d65cf80e31"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "fe6a6f8e-b6ff-415e-9007-f0f64d29bf8c"
+}

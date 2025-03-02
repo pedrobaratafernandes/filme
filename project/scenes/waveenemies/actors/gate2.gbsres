@@ -1,0 +1,57 @@
+{
+  "_resourceType": "actor",
+  "id": "cc40b7fe-e5cd-46e6-bcd1-60a832042921",
+  "name": "Gate2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0739af11-9e3d-49b0-9e36-613d3c72ecae",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_29",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "19"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "14dbba5e-d665-4264-bdac-40def919c3df"
+          }
+        ],
+        "false": []
+      },
+      "id": "fa2baf74-c607-4149-ac3d-d4c92aa4c6c2"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 18,
+  "y": 9,
+  "_index": 7
+}

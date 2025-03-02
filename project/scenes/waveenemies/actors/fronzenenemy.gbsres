@@ -1,0 +1,85 @@
+{
+  "_resourceType": "actor",
+  "id": "0f541711-3bc1-4b40-8524-b88da868f0b3",
+  "name": "FronzenEnemy",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cf916423-fcaf-4a6a-a14a-64122dabca74",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_30",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "17"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "ae2ae49a-3370-457b-8abf-13ddf4297f1e"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "17",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "40772cfa-25a3-4ff7-8c79-f662e52f8c71"
+          }
+        ],
+        "false": []
+      },
+      "id": "3fec7c2e-6bc2-430b-ae87-53c06cc6c097"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "9317e6f0-f214-48fc-bf14-b37584ba7c1a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "f0432dbd-3022-4204-92be-a85beeb879fa"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 2,
+  "y": 3,
+  "_index": 8
+}

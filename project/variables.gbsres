@@ -1,0 +1,305 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "gun",
+      "symbol": "var_gun"
+    },
+    {
+      "id": "1",
+      "name": "pickup",
+      "symbol": "var_pickup"
+    },
+    {
+      "id": "2",
+      "name": "playerX",
+      "symbol": "var_playerx"
+    },
+    {
+      "id": "3",
+      "name": "playerY",
+      "symbol": "var_playery"
+    },
+    {
+      "id": "4",
+      "name": "HP",
+      "symbol": "var_hp"
+    },
+    {
+      "id": "5",
+      "name": "Enemy1_isDead",
+      "symbol": "var_enemy1_isdead"
+    },
+    {
+      "id": "6",
+      "name": "Enemy1_isFrozen",
+      "symbol": "var_enemy1_isfrozen_0"
+    },
+    {
+      "id": "7",
+      "name": "error",
+      "symbol": "var_error"
+    },
+    {
+      "id": "8",
+      "name": "openDoor1",
+      "symbol": "var_opendoor1"
+    },
+    {
+      "id": "9",
+      "name": "DisableDialog1",
+      "symbol": "var_disabledialog1"
+    },
+    {
+      "id": "10",
+      "name": "start",
+      "symbol": "var_start"
+    },
+    {
+      "id": "11",
+      "name": "Enemy2_isDead",
+      "symbol": "var_enemy2_isdead"
+    },
+    {
+      "id": "12",
+      "name": "Enemy3_isDead",
+      "symbol": "var_enemy3_isdead"
+    },
+    {
+      "id": "13",
+      "name": "Enemy2_isFrozen2",
+      "symbol": "var_enemy2_isfrozen2"
+    },
+    {
+      "id": "14",
+      "name": "Enemy3_isFrozen1",
+      "symbol": "var_enemy3_isfrozen1"
+    },
+    {
+      "id": "15",
+      "name": "Frozen1",
+      "symbol": "var_frozen1"
+    },
+    {
+      "id": "16",
+      "name": "Frozen2",
+      "symbol": "var_frozen2"
+    },
+    {
+      "id": "17",
+      "name": "pickUp3",
+      "symbol": "var_pickup3"
+    },
+    {
+      "id": "18",
+      "name": "pickUp2",
+      "symbol": "var_pickup2_0"
+    },
+    {
+      "id": "19",
+      "name": "openDoor2",
+      "symbol": "var_opendoor2_0"
+    },
+    {
+      "id": "20",
+      "name": "Enemy2_isFrozen1",
+      "symbol": "var_enemy2_isfrozen1"
+    },
+    {
+      "id": "21",
+      "name": "congelado2",
+      "symbol": "var_congelado2"
+    },
+    {
+      "id": "22",
+      "name": "Enemy3_isFrozen2",
+      "symbol": "var_enemy3_isfrozen2"
+    },
+    {
+      "id": "23",
+      "name": "OpenDoor3",
+      "symbol": "var_opendoor3"
+    },
+    {
+      "id": "24",
+      "name": "carryEnemy",
+      "symbol": "var_carryenemy"
+    },
+    {
+      "id": "25",
+      "name": "DisplayDialog2",
+      "symbol": "var_displaydialog2"
+    },
+    {
+      "id": "acdb3e89-a006-427b-bed2-5eb6e660adf1__L0",
+      "name": "isMoveming",
+      "symbol": "var_ismoveming_0"
+    },
+    {
+      "id": "acdb3e89-a006-427b-bed2-5eb6e660adf1__L1",
+      "name": "movement",
+      "symbol": "var_movement"
+    },
+    {
+      "id": "acdb3e89-a006-427b-bed2-5eb6e660adf1__L2",
+      "name": "see",
+      "symbol": "var_see"
+    },
+    {
+      "id": "acdb3e89-a006-427b-bed2-5eb6e660adf1__L3",
+      "name": "isDead",
+      "symbol": "var_isdead"
+    },
+    {
+      "id": "acdb3e89-a006-427b-bed2-5eb6e660adf1__L4",
+      "name": "canPickUp",
+      "symbol": "var_canpickup"
+    },
+    {
+      "id": "96f586d8-bdac-4674-a2c8-612d6e2270bc__L0",
+      "name": "isMoveming",
+      "symbol": "var_ismoveming"
+    },
+    {
+      "id": "96f586d8-bdac-4674-a2c8-612d6e2270bc__L1",
+      "name": "movement",
+      "symbol": "var_movement_0"
+    },
+    {
+      "id": "96f586d8-bdac-4674-a2c8-612d6e2270bc__L2",
+      "name": "see",
+      "symbol": "var_see_0"
+    },
+    {
+      "id": "96f586d8-bdac-4674-a2c8-612d6e2270bc__L3",
+      "name": "isDead",
+      "symbol": "var_isdead_0"
+    },
+    {
+      "id": "96f586d8-bdac-4674-a2c8-612d6e2270bc__L4",
+      "name": "canPickUp",
+      "symbol": "var_canpickup_0"
+    },
+    {
+      "id": "8c9c56b6-e97f-4696-aa2e-bffb42acd847__L0",
+      "name": "isMoveming",
+      "symbol": "var_ismoveming_1"
+    },
+    {
+      "id": "8c9c56b6-e97f-4696-aa2e-bffb42acd847__L1",
+      "name": "movement",
+      "symbol": "var_movement_1"
+    },
+    {
+      "id": "8c9c56b6-e97f-4696-aa2e-bffb42acd847__L2",
+      "name": "see",
+      "symbol": "var_see_1"
+    },
+    {
+      "id": "8c9c56b6-e97f-4696-aa2e-bffb42acd847__L3",
+      "name": "isDead",
+      "symbol": "var_isdead_1"
+    },
+    {
+      "id": "8c9c56b6-e97f-4696-aa2e-bffb42acd847__L4",
+      "name": "canPickUp",
+      "symbol": "var_canpickup_1"
+    },
+    {
+      "id": "ad94c7de-6009-4187-9812-8ef8f2745053__L0",
+      "name": "isMoveming",
+      "symbol": "var_ismoveming_2"
+    },
+    {
+      "id": "ad94c7de-6009-4187-9812-8ef8f2745053__L1",
+      "name": "movement",
+      "symbol": "var_movement_2"
+    },
+    {
+      "id": "ad94c7de-6009-4187-9812-8ef8f2745053__L2",
+      "name": "see",
+      "symbol": "var_see_2"
+    },
+    {
+      "id": "ad94c7de-6009-4187-9812-8ef8f2745053__L3",
+      "name": "isDead",
+      "symbol": "var_isdead_2"
+    },
+    {
+      "id": "ad94c7de-6009-4187-9812-8ef8f2745053__L4",
+      "name": "canPickUp",
+      "symbol": "var_canpickup_2"
+    },
+    {
+      "id": "618f6e1d-9748-4d6e-80a9-913471563895__L0",
+      "name": "isMoveming",
+      "symbol": "var_ismoveming_3"
+    },
+    {
+      "id": "618f6e1d-9748-4d6e-80a9-913471563895__L1",
+      "name": "movement",
+      "symbol": "var_movement_3"
+    },
+    {
+      "id": "618f6e1d-9748-4d6e-80a9-913471563895__L2",
+      "name": "see",
+      "symbol": "var_see_3"
+    },
+    {
+      "id": "618f6e1d-9748-4d6e-80a9-913471563895__L3",
+      "name": "isDead",
+      "symbol": "var_isdead_3"
+    },
+    {
+      "id": "618f6e1d-9748-4d6e-80a9-913471563895__L4",
+      "name": "canPickUp",
+      "symbol": "var_canpickup_3"
+    },
+    {
+      "id": "43fb210b-0be1-4b54-b4f0-a92a6ebc4001__L0",
+      "name": "isMoveming",
+      "symbol": "var_ismoveming_4"
+    },
+    {
+      "id": "43fb210b-0be1-4b54-b4f0-a92a6ebc4001__L1",
+      "name": "movement",
+      "symbol": "var_movement_4"
+    },
+    {
+      "id": "43fb210b-0be1-4b54-b4f0-a92a6ebc4001__L2",
+      "name": "see",
+      "symbol": "var_see_4"
+    },
+    {
+      "id": "43fb210b-0be1-4b54-b4f0-a92a6ebc4001__L3",
+      "name": "isDead",
+      "symbol": "var_isdead_4"
+    },
+    {
+      "id": "43fb210b-0be1-4b54-b4f0-a92a6ebc4001__L4",
+      "name": "canPickUp",
+      "symbol": "var_canpickup_4"
+    },
+    {
+      "id": "da8e2343-970c-43e6-8816-d64a3273ea3e__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "0f541711-3bc1-4b40-8524-b88da868f0b3__L0",
+      "name": "isMoviming",
+      "symbol": "var_ismoviming"
+    },
+    {
+      "id": "26",
+      "name": "OpemDialog3",
+      "symbol": "var_opemdialog3"
+    },
+    {
+      "id": "27",
+      "name": "opemDialog4",
+      "symbol": "var_opemdialog4"
+    }
+  ]
+}

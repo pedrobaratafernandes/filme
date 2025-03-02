@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "932aa754-7174-4a35-9cfe-702b2761d81c",
+  "name": "enemies",
+  "symbol": "bg_enemies",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "enemies.png",
+  "tileColors": "",
+  "autoColor": false
+}

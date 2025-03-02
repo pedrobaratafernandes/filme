@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "0ec599c0-c11e-49d2-ba32-a0ac358398b8",
+  "_index": 5,
+  "name": "LoopWays1",
+  "backgroundId": "7599227c-5cd6-4f77-b57f-67bdfc26f281",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00d+0f!002+0f!004+0fd+002+0f3+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!00!0f2+0010+0f2+0028+0f2+0010+0f2+00!0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f7+002+0f9+008+0f!002+0f!009+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 640,
+  "y": 560,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c0ff6707-6e4f-4ecd-96c1-d76ebb0d4f4c"
+}
